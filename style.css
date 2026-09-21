@@ -1,0 +1,24 @@
+.bg-menu-yellow{
+    background-color: #fbc02d;
+}
+
+.judul-menu{
+    font-family: serif;
+    letter-spacing: 2px
+}
+
+.card-menu {
+    background-color: #fbe3b5;
+    border: none;
+}
+
+.badge-harga {
+    background-color: #e67e22;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #e67e22;
+}
