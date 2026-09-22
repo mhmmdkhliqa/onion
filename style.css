@@ -10,6 +10,11 @@
 .card-menu {
     background-color: #fbe3b5;
     border: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-menu:hover {
+    transform: translateY(-5px);
 }
 
 .badge-harga {
@@ -21,4 +26,33 @@
 
 .footer {
     background-color: #e67e22;
+}
+
+/* Styling Khusus Smartphone (Layar Maksimal 768px) */
+@media screen and (max-width: 768px) {
+    .judul-menu {
+        font-size: 1.5rem;
+    }
+    
+    /* Atur batas ukuran gambar di HP agar pas */
+    .card-menu img {
+        max-height: 120px;
+        object-fit: contain;
+    }
+}
+
+/* Styling Khusus Desktop (Layar Minimal 1024px) */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 16px;
+    background-color: #ffffff;
+  }
+
+/* Desktop (Layar Minimal 1024px) */
+@media screen and (min-width: 1024px) {
+    /* Atur batas ukuran gambar di Desktop */
+    .card-menu img {
+        max-height: 160px;
+        object-fit: contain;
+    }
 }
